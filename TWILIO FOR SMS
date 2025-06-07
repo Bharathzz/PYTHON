@@ -1,0 +1,15 @@
+from twilio.rest import Client
+account_sid = '******************'
+auth_token= 'faad19d572e6e2af239572f429958021'
+twilio_number = '+15072673949'
+target_number = ['+919778243339']
+client = Client(account_sid, auth_token)
+for i in target_number:
+    message = client.messages.create(
+        body="REDDY !!!!",
+        from_=twilio_number,
+        to=i
+
+    )
+
+

@@ -1,6 +1,6 @@
 from twilio.rest import Client
-account_sid = '******************'
-auth_token= 'faad19d572e6e2af239572f429958021'
+account_sid = '<>'
+auth_token= '<>'
 twilio_number = '+15072673949'
 target_number = ['+919778243339']
 client = Client(account_sid, auth_token)
